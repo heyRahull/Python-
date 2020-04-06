@@ -2,7 +2,21 @@
 # Taken a number as input from user and print the star pattern according to that input.
 # Take a boolean value and print any one pattern accordingly
 
-n = int(input("Enter a Number : "))
+#True n=5
+# *
+# **
+# ***
+# ****
+# *****
+
+#False n=5
+# *****
+# ****
+# ***
+# **
+# *
+
+n = int(input("How many rows you want to print : "))
 print(n)
 bool1 = int(input("Enter 1 or 0 : "))
 if (bool1 == 1):
