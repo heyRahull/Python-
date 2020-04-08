@@ -6,4 +6,4 @@ num2 = int(input("Enter the First integer : "))
 product = num1*num2
 print("The product of the two numbers is : ", product)
 if product > 1000:
-    print("The sum of two numbers is : ", num1+num2)
+    print("The sum of two numbers is : ", num1+num2) 
