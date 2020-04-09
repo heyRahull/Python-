@@ -7,7 +7,7 @@ str1 = input("Enter a String")
 print("THe original string is :", str1)
 
 print("The output is :")
-for x in range(0, len(str1)-1, 2):
+for x in range(0, len(str1), 2):
     print("index[", x, "]", str1[x])
 
 
