@@ -11,3 +11,4 @@ for x in range(0, len(str1), 2):
     print("index[", x, "]", str1[x])
 
 
+ 
