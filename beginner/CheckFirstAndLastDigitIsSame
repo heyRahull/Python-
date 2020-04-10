@@ -1,0 +1,16 @@
+'''
+
+Question 5: Given a list of numbers, return True if first and last number of a list is same
+'''
+
+
+list1 =[1, 2, 3, 4, 1]
+print("The List is : ",list1)
+
+def fun1(list12):
+    if(list12[0] == list12[-1]):
+        return True
+    else:
+        return false
+
+print(fun1(list1))
